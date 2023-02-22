@@ -72,5 +72,3 @@ const hexadecimalToBinary = isoString => {
 //       convertiontoDecimal.push(isoString[i]);
 //   }
 // }
-
-console.log(hexadecimalToBinary("7EFF4601A8E1E20A"));

@@ -8,11 +8,13 @@
   </head>
   <body>
     <main>
-      <form class="mainForm" action="index.html" method="get">
+      <form id="mainForm" action="index.html" method="post">
           <label for="hexa">Write you hexadecimal value below:</label>
-          <input type="text" name="hexa" placeholder="0F0F0F0F0F0F0F0F">
-          <button type="submit" name="submitMainForm">Convert</button>
+          <input type="text" name="hexa" id="hexaInput" placeholder="0F0F0F0F0F0F0F0F">
+          <button type="submit" name="submitMainForm" id="convertButton">Convert</button>
       </form>
+      <p>Binary output:</p>
+      <p id="binaryResult">0000111100001111000011110000111100001111000011110000111100001111</p>
     </main>
     <script src="scripts/hexadecimalToBinary.js" charset="utf-8"></script>
     <script src="scripts/scripts.js" charset="utf-8"></script>
