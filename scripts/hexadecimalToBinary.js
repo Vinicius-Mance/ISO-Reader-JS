@@ -1,4 +1,4 @@
-const hexaDecimalReader = isoString => {
+const hexadecimalToBinary = isoString => {
 
 // loop to transform ISO string into four digit binary
     let binaryArray = [];
@@ -73,4 +73,4 @@ const hexaDecimalReader = isoString => {
 //   }
 // }
 
-console.log(hexaDecimalReader("7EFF4601A8E1E20A"));
+console.log(hexadecimalToBinary("7EFF4601A8E1E20A"));
