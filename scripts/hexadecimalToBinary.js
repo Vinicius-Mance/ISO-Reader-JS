@@ -51,24 +51,3 @@ const hexadecimalToBinary = isoString => {
 // for (var i = 0; i < isoString.length; i+=2) {
 //     pairs.push(isoString[i] + isoString[i+1]);
 // }
-
-// non-used code to convert hexadecimal letters into decimal numbers
-// let convertiontoDecimal = [];
-// for (var i = 0; i < isoString.length; i++) {
-//
-//   if (isoString[i].match(/[Aa]/i)) {
-//     convertiontoDecimal.push(10)
-//   } else if (isoString[i].match(/[Bb]/i)) {
-//       convertiontoDecimal.push(11)
-//   } else if (isoString[i].match(/[Cc]/i)) {
-//       convertiontoDecimal.push(12)
-//   } else if (isoString[i].match(/[Dd]/i)) {
-//       convertiontoDecimal.push(13)
-//   } else if (isoString[i].match(/[Ee]/i)) {
-//       convertiontoDecimal.push(14)
-//   } else if (isoString[i].match(/[Ff]/i)) {
-//       convertiontoDecimal.push(15)
-//   } else {
-//       convertiontoDecimal.push(isoString[i]);
-//   }
-// }
