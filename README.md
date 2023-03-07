@@ -1,1 +1,1 @@
-A project to turn ISO messages into binary code on the confort of your browzer. simple and easy
+A project to turn ISO Hexadecimal messages into binary code at the confort of your browser. simple and easy
